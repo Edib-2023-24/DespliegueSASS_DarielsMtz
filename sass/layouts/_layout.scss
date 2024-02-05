@@ -1,3 +1,29 @@
 // **************************************
 // @Layout: layout
 // **************************************
+
+// Contenedor Principal (Centrado)
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+
+    .container__main{
+        width: var(--tamano-ancho);
+        height: 3277px;
+        background-color: var(--color-gris_claro);
+    }
+}
+
+.container__main-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+    height: 784px;
+}
+

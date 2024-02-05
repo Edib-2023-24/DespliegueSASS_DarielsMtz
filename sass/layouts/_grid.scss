@@ -1,3 +1,18 @@
 // **************************************
 // @Grid: grid
 // **************************************
+
+// Grid body
+.grid3x2-body{
+    display: grid;
+    grid-template-columns: 1fr[izquierda] 1536px[centro] 1fr[derecha];
+    grid-template-rows: 10px[padding-top] auto [todo el contenido];
+}
+
+// Grid contaioner
+
+.grid3x2-container{
+    display: grid;
+    grid-template-columns: 1fr[izquierda] 1536px[centro] 1fr[derecha];
+    grid-template-rows: 10px[padding-top] auto [todo el contenido];
+}
